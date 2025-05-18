@@ -1,2 +1,2 @@
-./gguf_model
+gguf_model/
 .env
