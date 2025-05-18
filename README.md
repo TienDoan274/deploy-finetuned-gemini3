@@ -4,8 +4,9 @@
 
 
 
-After finetuning model, the model is saved as a gguf file, you will have to put it in a folder call gguf_model:
+After finetuning model, model is saved as gguf file, you will have to put it in a folder call gguf_model:
 
+```
 .
 ├── Dockerfile
 ├── README.md
@@ -16,6 +17,7 @@ After finetuning model, the model is saved as a gguf file, you will have to put 
 ├── inference.py
 ├── knowledge_base.json
 └── requirements.txt
+```
 
 Then just run: 
 
@@ -23,4 +25,4 @@ Then just run:
 docker compose up
 ```
 
-You can use the model at: http://localhost:7860
+You can access the model at: http://localhost:7860
