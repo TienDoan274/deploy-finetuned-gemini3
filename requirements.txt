@@ -1,0 +1,21 @@
+# RAG dependencies
+
+# Core dependencies
+scikit-learn==1.6.0
+huggingface_hub==0.23.0
+pydantic==2.6.4
+fastapi==0.110.0
+uvicorn==0.29.0
+gradio==4.21.0
+markupsafe==2.1.5  # Pinned for gradio compatibility
+
+# Build dependencies
+setuptools==69.2.0
+wheel==0.43.0
+
+scipy
+numpy
+
+# Optional dependencies (commented out unless needed)
+# matplotlib==3.8.3
+# pandas==2.2.1

@@ -1,0 +1,17 @@
+version: '3'
+services:
+  llm-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "7860:7860"
+    volumes:
+      - ./app.py:/app/app.py
+      - ./knowledge_base.json:/app/knowledge_base.json
+      - ./gguf_model:/app/gguf_model
+    restart: unless-stopped
+    container_name: llm-inference
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: python app.py --gradio --server_name 0.0.0.0 --server_port 7860

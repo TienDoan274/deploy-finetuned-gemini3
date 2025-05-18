@@ -1,0 +1,1 @@
+finetune notebook: https://www.kaggle.com/code/nhttinon/finetune-gemma3-lab1-mlops
