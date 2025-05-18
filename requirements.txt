@@ -15,6 +15,7 @@ wheel==0.43.0
 
 scipy
 numpy
+python-dotenv
 
 # Optional dependencies (commented out unless needed)
 # matplotlib==3.8.3
